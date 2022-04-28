@@ -39,6 +39,8 @@ namespace FlyTickets
             });
             services.AddScoped<IRepository<Route>, Repository<Route>>();
             services.AddScoped< IRepository<IdentityUser>, Repository<IdentityUser>>();
+            services.AddScoped<IRepository<Reservation>, Repository<Reservation>>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

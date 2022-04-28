@@ -3,21 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FlyTickets.Data
+namespace FlyTickets.Models.Reservation
 {
-    public class Reservation
+    public class ReserveViewModel
     {
-        public Guid Id { get; set; }
-        public Guid RouteId { get; set; }
-
         public string Name { get; set; }
-
-        public string Phone { get; set; }
 
         public string Email { get; set; }
 
-        public string Seats { get; set; }
+        public string Phone { get; set; }
+
 
         public int Laguage { get; set; }
+
+        public Guid FlightId { get; set; }
     }
 }

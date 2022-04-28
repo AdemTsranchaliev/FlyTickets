@@ -50,7 +50,8 @@ namespace FlyTickets.Controllers
                 DepartureTime=model.DepartureDate,
                 Plane=model.Plane,
                 Price=model.Price,
-                Seats=model.Seats
+                Seats=model.Seats,
+                Active=true
             };
             route.ArrivalTime+=(model.ArrivalTime);
             route.DepartureTime+=(model.DepartureTime);

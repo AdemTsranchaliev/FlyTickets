@@ -31,5 +31,7 @@ namespace FlyTickets.Data
         public string Plane { get; set; }
 
         public decimal Price { get; set; }
+
+        public bool Active { get; set; }
     }
 }

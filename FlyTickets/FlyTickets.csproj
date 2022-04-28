@@ -12,6 +12,12 @@
     <Compile Remove="Data\Migrations\20220426122440_second.Designer.cs" />
     <Compile Remove="Data\Migrations\20220426122541_first.cs" />
     <Compile Remove="Data\Migrations\20220426122541_first.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220426124642_first.cs" />
+    <Compile Remove="Data\Migrations\20220426124642_first.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220428173331_ini.cs" />
+    <Compile Remove="Data\Migrations\20220428173331_ini.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220428182502_second.cs" />
+    <Compile Remove="Data\Migrations\20220428182502_second.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
